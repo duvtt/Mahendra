@@ -69,7 +69,7 @@ function App() {
     fullDesc: 'MatrixSketch adalah aplikasi mobile berbasis Java yang dikembangkan menggunakan Android Studio. Aplikasi ini dirancang untuk memberikan pengalaman menggambar yang unik dengan mengintegrasikan filter visual bergaya matriks secara real-time, mengutamakan performa rendering dan efisiensi memori pada perangkat mobile.', // Deskripsi panjang untuk pop-up
     tech: ['Java', 'Android Studio'],
     link: "https://github.com/duvtt/MatrixSketch/releases/tag/v1.0",
-    image: "./images/MS v.png" 
+    image: "/Mahendra/images/MS v.png"
   },
   {
     id: 2,
@@ -79,7 +79,7 @@ function App() {
    fullDesc: 'SIDD Mobile adalah aplikasi mobile berbasis Java yang dikembangkan menggunakan Android Studio. Aplikasi ini dirancang untuk mempermudah pemantauan keuangan desa melalui platform mobile, memberikan akses yang lebih mudah dan cepat terhadap informasi keuangan desa.', // Deskripsi panjang untuk pop-up
     tech: ['Java', 'Android Studio'],
     link: "https://github.com/duvtt/sidd-mobile/releases/tag/v1.0",
-    image: "./images/SIDD v.png"
+    image: "/Mahendra/images/SIDD v.png"
   },
   {
     id: 3,
@@ -89,7 +89,7 @@ function App() {
     fullDesc: 'FIXIT adalah website untuk pelaporan fasilitas dengan cepat menggunakan teknologi modern. Website ini dirancang untuk memberikan pengalaman pengguna yang baik dan efisien dalam melaporkan masalah fasilitas.', // Deskripsi panjang untuk pop-up
     tech: ['React', 'Tailwind CSS', 'Node.js'],
     link: "https://github.com/duvtt/FIXIT",
-    image: "./images/FIX.png"
+    image: "/Mahendra/images/FIX.png"
   }
 ];
 
