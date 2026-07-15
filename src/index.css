@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* --- KUSTOMISASI SCROLLBAR --- */
+/* Untuk Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 8px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #09090b; /* Memaksa warna latar gelap agar garis putih hilang total */
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15); /* Warna abu-abu samar agar tetap terlihat kalau diteliti */
+  border-radius: 10px;
+  border: 2px solid #09090b; /* Trik visual: memberi bingkai gelap agar scrollbar terlihat lebih kurus dan estetik */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(249, 115, 22, 0.5); /* Efek neon oranye saat di-hover */
+}
+
+/* Standar untuk Firefox dan memastikan dasar web tetap gelap */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.15) #09090b;
+  background-color: #09090b;
+}
