@@ -56,7 +56,7 @@ function App() {
    email: "https://mail.google.com/mail/?view=cm&fs=1&to=mademahendra385@gmail.com", 
     github: "https://github.com/duvtt",
     instagram: "https://instagram.com/dedut_48", 
-    cv: "/cv-mahendra.pdf" // Pastikan nama file PDF ini ada di dalam folder 'public'
+    cv: "./cv-mahendra.pdf"
   };
 
   // 2. DATA & FOTO 
@@ -282,8 +282,8 @@ function App() {
             <h2 className="text-xs font-bold text-slate-500 tracking-[0.15em] uppercase mb-4">Tentang</h2>
             <h3 className="text-4xl md:text-5xl font-extrabold text-white mb-12">Filosofi</h3>
             <p className="text-2xl md:text-3xl text-slate-300 font-medium leading-relaxed tracking-tight">
-              Saya percaya antarmuka yang hebat itu tidak terlihat. <br/><br/>
-              Mereka dibangun dengan kode berbasis komponen yang bersih dan mengekspresikan diri melalui interaksi yang terasa intuitif, presisi, dan mudah digunakan.
+              Bagi saya, barisan kode bukan sekadar instruksi logika, melainkan kanvas untuk berkreasi. <br/><br/>
+              Saya percaya bahwa perangkat lunak yang luar biasa selalu lahir dari perpaduan harmonis antara fondasi teknis yang solid dan desain antarmuka yang memanusiakan penggunanya.
             </p>
           </div>
           <div className="flex flex-col items-start lg:items-center">
@@ -297,8 +297,8 @@ function App() {
                <div className="w-2 h-2 bg-slate-300 rounded-full shadow-[0_0_10px_rgba(255,255,255,0.5)]"></div>
             </div>
             <div className="text-slate-400 text-sm leading-relaxed max-w-sm space-y-4">
-              <p>Setiap proyek dimulai dengan pemahaman mendalam tentang pengguna — alur, batasan, dan momen-momen yang menentukan sebuah pengalaman. Dari sana, saya membangun antarmuka yang terasa hidup.</p>
-              <p>Sebagai pengembang, saya terobsesi dengan tipografi, jarak ruang, waktu animasi, dan arsitektur komponen, selalu mengoptimalkan kejelasan, kecepatan, dan kerajinan yang sempurna pada setiap pikselnya.</p>
+              <p>Setiap proyek yang saya kerjakan selalu berpusat pada satu pertanyaan: bagaimana memecahkan masalah dengan cara yang elegan? Berbekal ketertarikan mendalam pada UI/UX dan pengembangan perangkat lunak, saya sangat menikmati proses menerjemahkan ide-ide kompleks menjadi pengalaman digital yang mulus dan interaktif.</p>
+              <p>Sebagai seorang pengembang, saya memadukan presisi logika pemrograman dengan kepekaan estetika visual. Baik itu saat merancang aplikasi mobile maupun membangun platform web, fokus utama saya adalah menciptakan solusi yang tidak hanya berfungsi dengan efisien, tetapi juga terasa intuitif dan nyaman pada setiap sentuhannya..</p>
             </div>
           </div>
         </div>
