@@ -56,7 +56,7 @@ function App() {
    email: "https://mail.google.com/mail/?view=cm&fs=1&to=mademahendra385@gmail.com", 
     github: "https://github.com/duvtt",
     instagram: "https://instagram.com/dedut_48", 
-    cv: "./cv-mahendra.pdf"
+    cv: "./cv-mahendra.pdf",
   };
 
   // 2. DATA & FOTO 
